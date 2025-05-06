@@ -1,0 +1,4 @@
+name: openlog
+version: '1.0-SNAPSHOT'
+main: maeshil.openlog.Openlog
+api-version: '1.21'
