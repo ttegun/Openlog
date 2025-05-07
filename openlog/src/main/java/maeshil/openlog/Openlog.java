@@ -58,7 +58,7 @@ public final class Openlog extends JavaPlugin implements Listener {
     }
 
     private void sendLogToWebServer(String log) {
-        String urlString = "http://maeshil.mcv.kr:8000/logs"; // 로그를 전송할 URL
+        String urlString = "http://127.0.0.1:8000/logs"; // 로그를 전송할 URL
         try {
             // URL 객체 생성
             URL url = new URL(urlString);
